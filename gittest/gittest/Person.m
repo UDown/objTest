@@ -14,6 +14,8 @@
     self = [super init];
     if (self) {
         NSLog(@"xxxx");
+        
+        NSLog(@"test2");
     }
     return self;
 }
