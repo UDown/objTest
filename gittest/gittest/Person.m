@@ -9,5 +9,12 @@
 #import "Person.h"
 
 @implementation Person
-
+-(instancetype)init{
+    
+    self = [super init];
+    if (self) {
+        NSLog(@"xxxx");
+    }
+    return self;
+}
 @end
