@@ -20,4 +20,7 @@
     }
     return self;
 }
+- (void)eat{
+    // 定义一个方法
+}
 @end
