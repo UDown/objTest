@@ -16,6 +16,7 @@
         NSLog(@"xxxx");
         
         NSLog(@"test2");
+        // 增加一个新的分支test2
     }
     return self;
 }
