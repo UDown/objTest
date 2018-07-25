@@ -15,6 +15,7 @@
 		C26029932108CE040025380F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26029922108CE040025380F /* main.m */; };
 		C260299D2108CE040025380F /* gittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C260299C2108CE040025380F /* gittestTests.m */; };
 		C26029A82108CE040025380F /* gittestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C26029A72108CE040025380F /* gittestUITests.m */; };
+		C26029B72108CEFD0025380F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C26029B62108CEFD0025380F /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C26029A32108CE040025380F /* gittestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gittestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26029A72108CE040025380F /* gittestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gittestUITests.m; sourceTree = "<group>"; };
 		C26029A92108CE040025380F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26029B52108CEFD0025380F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C26029B62108CEFD0025380F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				C260298E2108CE040025380F /* LaunchScreen.storyboard */,
 				C26029912108CE040025380F /* Info.plist */,
 				C26029922108CE040025380F /* main.m */,
+				C26029B52108CEFD0025380F /* Person.h */,
+				C26029B62108CEFD0025380F /* Person.m */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				C26029882108CE020025380F /* ViewController.m in Sources */,
 				C26029932108CE040025380F /* main.m in Sources */,
+				C26029B72108CEFD0025380F /* Person.m in Sources */,
 				C26029852108CE020025380F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
